@@ -1,6 +1,6 @@
-from config import APITOKEN
 import requests
 import json
+from config import APITOKEN
 
 api_path = 'https://api.graphsense.info/'
 headers = {'accept': 'application/json', 'Authorization': APITOKEN}

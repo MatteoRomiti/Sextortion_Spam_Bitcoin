@@ -13,3 +13,17 @@ In the past year, a new spamming scheme has emerged: sexual extortion messages r
 # TODO
 - add link to zenodo (after conference)
 - finish adding code
+
+
+## How to
+
+This work relies on python 3, jupyter notebooks and [GraphSense REST API](https://github.com/graphsense/graphsense-REST)
+To install the required libraries:
+`pip install -r requirements.txt`
+
+The raw dataset of emails cannot be published, but in `data` you can find the addresses related to the sextortion used in our paper. You can run the cells in the notebook and reproduce/improve the results.
+
+---
+**NOTE**
+
+An API token is needed to query the GraphSense API.
