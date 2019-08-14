@@ -26,5 +26,3 @@ An API token is needed to query the GraphSense API.
 
 ## TODO
 - add link to zenodo (after conference)
-- finish adding code
-
