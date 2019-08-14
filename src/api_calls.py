@@ -206,7 +206,7 @@ def get_cluster_tags(cluster, currency='btc'):
     if d:
         tags = list(set([el['label'] for el in d]))
         return tags
-    return 'Unknown'
+    return ['Unknown']
 
 
 def get_cluster_tag(cluster, currency='btc'):

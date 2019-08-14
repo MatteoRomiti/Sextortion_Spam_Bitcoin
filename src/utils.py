@@ -191,7 +191,7 @@ def flow2known_clusters(flow):
 	for step in range(len(flow)):
 		for k in flow[step].keys():
 			a, c, tag = k.split('_')
-			if tag != 'unknown':
+			if tag not in ['Unknown', 'U']:
 				known_clusters_tags.add(c + '_' + tag)
 				tags.add(tag)
 				cluster_tag = c + '_' + tag
