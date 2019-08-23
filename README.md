@@ -12,7 +12,8 @@ In the past year, a new spamming scheme has emerged: sexual extortion messages r
 
 ## How to
 
-This work relies on python 3, jupyter notebooks and [GraphSense REST API](https://github.com/graphsense/graphsense-REST)
+This work relies on python 3, jupyter notebooks and [GraphSense REST API](https://github.com/graphsense/graphsense-REST).
+
 To install the required libraries:
 	
 	pip install -r requirements.txt
