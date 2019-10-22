@@ -3,7 +3,8 @@
 This repository hosts the relevant code and the Bitcoin addresses extracted from the emails at our disposal to reproduce the results of the research paper accepted at [AFT 2019](https://aft.acm.org).
 
 The paper is available [here](https://arxiv.org/abs/1908.01051).
-
+The slides are available [here](https://www.slideshare.net/MatteoRomiti1/spams-meet-cryptocurrencies-184791429).
+The Bitcoin addresses are also available [here](https://zenodo.org/record/3515199#.Xa603XUzY3E).
 ------------
 
 ## Abstract
@@ -24,6 +25,3 @@ The raw dataset of emails cannot be published, but in `data` you can find the ad
 **NOTE**
 
 An API token is needed to query the GraphSense API.
-
-## TODO
-- add link to zenodo (after conference)
