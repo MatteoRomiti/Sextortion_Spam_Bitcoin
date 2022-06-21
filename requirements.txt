@@ -1,4 +1,4 @@
 requests==2.22.0
-numpy==1.16.3
+numpy==1.22.0
 blockchain==1.4.4
 pandas==0.24.2
